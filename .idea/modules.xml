@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/OkhttpDemo.iml" filepath="$PROJECT_DIR$/.idea/OkhttpDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/OkhttpEx_API_PHP.iml" filepath="$PROJECT_DIR$/.idea/OkhttpEx_API_PHP.iml" />
     </modules>
   </component>
 </project>

@@ -29,7 +29,7 @@ $rs = mysql_fetch_array(mysql_query($sql,$conn));
 $dataCount =$rs["count"];
 
 //从数据库获取信息，并转成Json格式返回给客户端
-$sql = "SELECT * FROM zw_new limit ".($page -1)*$pageSize."," .$pageSize;
+$sql = "SELECT * FROM vst_new limit ".($page -1)*$pageSize."," .$pageSize;
 $rs = mysql_query($sql,$conn);
 $data = array();
 while ($row = mysql_fetch_array($rs)) {//把从数据库获取的数据封装成数组
